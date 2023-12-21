@@ -10,13 +10,13 @@
 - **张 &nbsp; &nbsp;沁**：整理报告、代码上传
 
 ## MNIST 数据集介绍
-MNIST数据集是手写数字识别的标准数据集，包含60000张训练图像和10000张测试图像，每张图像大小为28x28像素。
-![MNIST 数据集示例](https://raw.githubusercontent.com/zq111724/pic/main/2.png)
+MNIST数据集是手写数字识别的标准数据集，包含60000张训练图像和10000张测试图像，每张图像大小为28x28像素。<br>
+![MNIST 数据集示例](https://raw.githubusercontent.com/zq111724/pic/main/2.png)<br>
 我们使用pytorch的torchvision工具集下载MNIST的训练和测试图片，数据集的图片以字节形式存储，可直接使用`torch.utils.data.DataLoader`进行加载。
 
 ## LeNet5 网络介绍
-在本次项目中，我们使用LeNet5实现手写数字识别目标。下面是对LeNet5的详细介绍：
-![LeNet5 架构](https://raw.githubusercontent.com/zq111724/pic/main/1.png)
+在本次项目中，我们使用LeNet5实现手写数字识别目标。下面是对LeNet5的详细介绍：<br>
+![LeNet5 架构](https://raw.githubusercontent.com/zq111724/pic/main/1.png)<br>
 LeNet5的基本结构包括7层网络结构（不含输入层），其中包括：
 - 2个卷积层
 - 2个降采样层（池化层）
